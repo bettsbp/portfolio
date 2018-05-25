@@ -44,6 +44,5 @@ body {
 }
 .top h1, h2 {
   font-style: italic;
-  background-color: black;
-  border-radius: 100%;
+  border-radius: 15%;
 }
