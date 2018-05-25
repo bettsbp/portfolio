@@ -10,7 +10,6 @@ body {
 }
 .about {
   float: left;
-  margin: 150px;
   background-color: rgba(50, 50, 50, .5);
   border-radius: 10%;
   border: 5px solid skyblue;
@@ -23,15 +22,13 @@ body {
   text-align: center;
   float: left;
   width: 45%;
-  margin: 15px;
-  padding: 15px;
+  margin: 10px;
 }
 .portr {
   text-align: center;
   float: right;
   width: 45%;
-  margin: 15px;
-  padding: 15px;
+  margin: 10px
 }
 .main img {
   width: 50%;
@@ -53,7 +50,7 @@ p {
   margin: 10px;
   padding: 10px;
 }
-h1 {
+h1, h3 {
   text-align: center;
 }
 span {
@@ -67,4 +64,12 @@ a {
 a:hover {
   color: lime;
   transition: .1s;
+  text-decoration: none;
+}
+.col-md-6 {
+  margin: 20px;
+}
+.well {
+  background-color: grey;
+  margin: 20px;
 }

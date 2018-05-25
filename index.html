@@ -2,62 +2,73 @@
 <html>
   <head>
     <title>Brandon's Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="img/note.ico" rel="shortcut icon">
   </head>
   <body>
-    <div class="main">
-      <div class="top">
-        <h1>Brandon Betts</h1>
-        <a href="https://www.youtube.com/watch?v=YSkHIv7GhOM" target="_blank"><img class="banner" src="img/piano.jpg"></a>
-        <h5>An aspiring programmer and web designer</h5>
-        <h1>Portfolio</h1>
-        <hr>
-      </div>
-      <div class="portl">
-        <h2>Vacation Website</h2>
-        <a href="https://github.com/bettsbp/vacation-site" target="_blank"><img src="img/vaca.jpg"></a>
-        <p>A simple website that works with html and css. Elements of bootstrap are included</p>
-        <hr>
-        <h2>Animal Shelter Website</h2>
-        <a href="https://github.com/bettsbp/animalshelter" target="_blank"><img src="img/dog.jpg"></a>
-        <p>Small website that has css for transitions and background images</p>
-        <hr>
-      </div>
-      <div class="portr">
-        <h2>Cupcake Shop Website</h2>
-        <a href="https://github.com/bettsbp/cupcake" target="_blank"><img src="img/cupcake.jpeg"></a>
-        <p>Website with elements of image manipulation and css floating to the left and right</p>
-        <hr>
-        <h2>Island Website</h2>
-        <a href="https://bettsbp.github.io/islandweb/" target="_blank"><img src="img/island.jpg"></a>
-        <p>Website with multiple pages and a functioning nav bar</p>
-        <hr>
-      </div>
-      <div class="about">
-        <h1>About Me:</h1>
-        <p>My name is <strong>Brandon</strong> and I'm <em>very</em> excited about all this coding and programming business. There are a couple things I'm nervous about, but hopefully that won't be much of a problem.</p>
-        <p>I was born in Vietnam and was almost immediately taken to an orphanage. I never knew my birth parents and I doubt I ever will, but that's okay because I love my family here and I'm glad they chose me. I've lived in a city called West Linn just a little ways away from Portland my entire life.</p>
-        <p>Before applying to this class I was pretty unsure of what I wanted to do with my life, you know, the usual "Oh no what am I going to do out of high school" kind of thing. It's a bit depressing to talk about, but I was in a bad place. <strong><em>ANYWAY,</em></strong> I took a couple coding classes in high school which all kind of glossed over the basics of html, css, javascript and a couple other things I don't remember anymore. Unfortunately, almost everything I learned in those classes I've purged from my memory. I wasn't too crazy about the idea of a four year degree college or a 'typical' career path. For the longest time, actually, my goal was to be a professional gamer! <em><span>It's kind of weird, I know</span></em>, but I did get pretty good. However, I'm now seeking a career where my chances of success are much greater and I can focus more on my skills rather than getting lucky.</p>
-        <br>
-        <p>Outside of this new career path I am chasing, here are some things that I enjoy doing in my free time <span>(which I don't have much of anymore unfortunately)</span>.</p>
-        <ul>
-          <li>Making music</li>
-          <li>Listening to good music</li>
-          <li>Playing Video Games</li>
-          <li>Hanging out with friends</li>
-          <li>Reading books</li>
-          <li>Going for long walks outside</li>
-          <li>Walking through natural places</li>
-        </ul>
-        <p>I absolutely <strong>LOVE</strong> music and everything about it. I love making it, listening to it, reading it, watching analysis videos about arrangements, etc. There's almost nothing I don't like about it except maybe when people trash on other people's musical opinions. Right now, I'm a bit obsessed with a musical group called <a href="http://www.ptxofficial.com/"<em>Pentatonix</em></a>. I just love that they're all a capella and how clever they are with their arrangements. I linked my favorite piece by them in the piano image at the top of the page if you want to check it out.</p>
-        <p>There are a couple things that I hope to accomplish throughout the duration of this class:</p>
-        <ol>
-          <li>Get a new career in the tech industry</li>
-          <li>Prove to myself that I can accomplish things if I set my mind to it</li>
-          <li>Not fail</li>
-          <li>Have fun</li>
-        </ol>
+    <div class="container">
+      <div class="main">
+        <div class="top">
+          <h1>Brandon Betts</h1>
+          <a href="https://www.youtube.com/watch?v=YSkHIv7GhOM" target="_blank"><img class="banner" src="img/piano.jpg"></a>
+          <div class="well">
+            <h3>An aspiring programmer and web designer</h3>
+          </div>
+          <h1>Portfolio</h1>
+          <hr>
+        </div>
+        <div class="portl">
+          <h2>Vacation Website</h2>
+          <a href="https://github.com/bettsbp/vacation-site" target="_blank"><img src="img/vaca.jpg"></a>
+          <p>A simple website that works with html and css. Elements of bootstrap are included</p>
+          <hr>
+          <h2>Animal Shelter Website</h2>
+          <a href="https://github.com/bettsbp/animalshelter" target="_blank"><img src="img/dog.jpg"></a>
+          <p>Small website that has css for transitions and background images</p>
+          <hr>
+        </div>
+        <div class="portr">
+          <h2>Cupcake Shop Website</h2>
+          <a href="https://github.com/bettsbp/cupcake" target="_blank"><img src="img/cupcake.jpeg"></a>
+          <p>Website with elements of image manipulation and css floating to the left and right</p>
+          <hr>
+          <h2>Island Website</h2>
+          <a href="https://bettsbp.github.io/islandweb/" target="_blank"><img src="img/island.jpg"></a>
+          <p>Website with multiple pages and a functioning nav bar</p>
+          <hr>
+        </div>
+        <div class="about">
+          <h1>About Me:</h1>
+            <div class="row>">
+              <div class="col-md-6">
+                <p>My name is <strong>Brandon</strong> and I'm <em>very</em> excited about all this coding and programming business. There are a couple things I'm nervous about, but hopefully that won't be much of a problem.</p>
+              </div>
+              <div class="col-md-6">
+                <p>I was born in Vietnam and was almost immediately taken to an orphanage. I never knew my birth parents and I doubt I ever will, but that's okay because I love my family here and I'm glad they chose me. I've lived in a city called West Linn just a little ways away from Portland my entire life.</p>
+              </div>
+              <p>Before applying to this class I was pretty unsure of what I wanted to do with my life, you know, the usual "Oh no what am I going to do out of high school" kind of thing. It's a bit depressing to talk about, but I was in a bad place. <strong><em>ANYWAY,</em></strong> I took a couple coding classes in high school which all kind of glossed over the basics of html, css, javascript and a couple other things I don't remember anymore. Unfortunately, almost everything I learned in those classes I've purged from my memory. I wasn't too crazy about the idea of a four year degree college or a 'typical' career path. For the longest time, actually, my goal was to be a professional gamer! <em><span>It's kind of weird, I know</span></em>, but I did get pretty good. However, I'm now seeking a career where my chances of success are much greater and I can focus more on my skills rather than getting lucky.</p>
+            </div>
+            <br>
+            <p>Outside of this new career path I am chasing, here are some things that I enjoy doing in my free time <span>(which I don't have much of anymore unfortunately)</span>.</p>
+          <ul>
+            <li>Making music</li>
+            <li>Listening to good music</li>
+            <li>Playing Video Games</li>
+            <li>Hanging out with friends</li>
+            <li>Reading books</li>
+            <li>Going for long walks outside</li>
+            <li>Walking through natural places</li>
+          </ul>
+          <p>I absolutely <strong>LOVE</strong> music and everything about it. I love making it, listening to it, reading it, watching analysis videos about arrangements, etc. There's almost nothing I don't like about it except maybe when people trash on other people's musical opinions. Right now, I'm a bit obsessed with a musical group called <a href="http://www.ptxofficial.com/"<em>Pentatonix</em></a>. I just love that they're all a capella and how clever they are with their arrangements. I linked my favorite piece by them in the piano image at the top of the page if you want to check it out.</p>
+          <p>There are a couple things that I hope to accomplish throughout the duration of this class:</p>
+          <ol>
+            <li>Get a new career in the tech industry</li>
+            <li>Prove to myself that I can accomplish things if I set my mind to it</li>
+            <li>Not fail</li>
+            <li>Have fun</li>
+          </ol>
+        </div>
       </div>
     </div>
   </body>
