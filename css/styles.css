@@ -14,6 +14,7 @@ body {
   border-radius: 10%;
   border: 5px solid skyblue;
   padding: 50px;
+  margin-bottom: 50px;
 }
 .top {
   text-align: center;
