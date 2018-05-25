@@ -1,6 +1,6 @@
 # Portolio Website
-#### Week One Solo Project
-## Brandon Betts
+## Week One Solo Project
+### Brandon Betts
 
 # Desc
 
