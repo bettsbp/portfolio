@@ -70,6 +70,6 @@ a:hover {
   margin: 20px;
 }
 .well {
-  background-color: grey;
+  background-color: rgba(150, 150, 150, .25);
   margin: 20px;
 }
