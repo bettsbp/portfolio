@@ -1,0 +1,27 @@
+body {
+  background-image: url("../img/smoke.jpg");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: arial;
+  font-size: 22px;
+}
+.about {
+  text-align: center;
+  float: left;
+}
+.top {
+  text-align: center;
+}
+.portl {
+  text-align: center;
+  float: left;
+  width: 45%;
+}
+.portr {
+  text-align: center;
+  float: right;
+  width: 45%;
+}
