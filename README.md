@@ -16,5 +16,8 @@ This is a simple website to demonstrate basic css styling skills and html skills
 * html
 * css
 
+# GH-pages
+https://github.com/bettsbp/portfolio/tree/gh-pages
+
 # Legal
 Copyright (c) 2018 Brandon Betts All Rights Reserved.
