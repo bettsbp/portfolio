@@ -32,8 +32,15 @@ body {
   margin: 15px;
   padding: 15px;
 }
-img {
+.main img {
   width: 50%;
+  transition: .15s;
+  border-radius: 10%;
+}
+.main img:hover {
+  transform: rotate(5deg);
+  transition: .15s;
+  width: 55%;
 }
 .top h1, h2 {
   font-style: italic;
